@@ -161,6 +161,8 @@ Any ideas on how to make the solution better?
 
 Any other thoughts or questions or things to try?
 
+## Prior Art
 
+Adapted from "Accumulate" [exercism](http://exercism.io/).
 
 
