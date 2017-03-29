@@ -1,6 +1,13 @@
 ## Install Language
 
-Install Elm language via [installer](https://guide.elm-lang.org/install.html)
+Install Elm language 
+
+- Via [installer](https://guide.elm-lang.org/install.html)
+- Or via brew: 
+
+```
+brew install elm
+```
 
 Verify in terminal:
 
