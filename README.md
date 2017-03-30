@@ -36,15 +36,17 @@ cd elm-kata-map && \
 elm-test
 ```
 
-## Comment out Tests
+## Error #1 - File
 
-Seems like a smart thing to do, right?
+```
+I cannot find module 'Map'.
 
-`--` is a line comment
+Module 'Tests' is trying to import it.
+```
 
-Let's just focus on the first test.  Re-run tests.
+To address this, create a `Map.elm` file in the `src` dir.
 
-## Error #1 - Module
+## Error #2 - Module
 
 ```
 The module name is messed up for ./../src/Map.elm
@@ -61,7 +63,16 @@ File names are significant.  Must match module name in the file:
 module Map exposing (..)
 ```
 
-## Error #2 - Declaration
+## Comment out Tests
+
+Seems like a smart thing to do, right?
+
+`--` is a line comment
+
+Let's just focus on the first test.  Re-run tests.
+
+
+## Error #3 - Declaration
 
 ```
 I ran into something unexpected when parsing your code!
@@ -108,7 +119,7 @@ map : (a -> b) -> List a -> List b
 - Usually on light directly above declaration
 - First is the name of the function
 - Separated by `:` colon
-- The a list of parameters, separated by `->` arrows
+- The list of parameters, separated by `->` arrows
 - The final "parameter" is actually the return type; eg `List b`
 - Parameters listed as types only; no variable names
 - `a` and `b` are generic types; Start with `a` and go in alpha order by convention
