@@ -168,6 +168,6 @@ Any ideas on how to make the solution better?
 
 Any other thoughts or questions or things to try?
 
+## Prior Art
 
-
-
+This exercise was adapted from the "Accumulate" [exercism](http://www.exercism.io/). 
