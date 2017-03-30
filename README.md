@@ -1,3 +1,7 @@
+For a text walkthrough, see this jaketrent.com article, ["Elm: First Taste of Syntax"](https://jaketrent.com/post/elm-first-taste-of-syntax/).
+
+![elm](http://i.imgur.com/VLYEPps.jpg)
+
 ## Install Language
 
 Install Elm language 
